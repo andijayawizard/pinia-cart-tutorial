@@ -1,16 +1,16 @@
 <template>
   <div class="text-slate-500">
-    <table class="table-auto">
-      <thead>
+    <table class="w-full table-auto border-slate-500 font-light">
+      <thead class="border-b border-slate-500">
         <tr>
-          <th>Id</th>
+          <th class="p-2">Id</th>
           <th>Nama</th>
           <!-- <th>Ringkasan</th> -->
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(item, index) in brands" :key="index">
-          <td v-text="item.id"></td>
+        <tr v-for="(item, index) in brands" :key="index" class="border-b border-slate-500">
+          <td v-text="item.id" class="p-2 text-center"></td>
           <td v-text="item.nama"></td>
           <!-- <td v-text="item.rgks"></td> -->
         </tr>
