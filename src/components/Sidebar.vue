@@ -1,5 +1,5 @@
 <template>
-  <div class="w-64 h-screen overflow-hidden bg-gray-900">
+  <div class="w-64 h-screen overflow-hidden bg-gray-800">
     <div class="flex flex-col justify-between h-full px-5 py-8">
       <div class="mx-auto">
         <!-- title -->

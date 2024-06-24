@@ -5,22 +5,22 @@
       <div class="card-body">
         <div v-if="products">
           <h5 v-text="module"></h5>
-          <div class="table-auto">
-            <thead>
+          <table class="table-auto w-full font-light">
+            <thead class="border-b border-slate-800">
               <tr>
-                <th>Id</th>
+                <th class="p-2">Id</th>
                 <th>Nama</th>
                 <th>Brand</th>
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(item, index) in products" :key="index">
-                <td v-text="item.id"></td>
+              <tr v-for="(item, index) in products" :key="index" class="border-b border-slate-800">
+                <td class="p-2 text-center" v-text="item.id"></td>
                 <td v-text="item.nama"></td>
                 <td v-text="item.bid.nama"></td>
               </tr>
             </tbody>
-          </div>
+          </table>
           <!-- <ul class="mb-0">
           <li v-for="(item, index) in products" :key="index">{{ item.nama }}</li>
         </ul> -->
