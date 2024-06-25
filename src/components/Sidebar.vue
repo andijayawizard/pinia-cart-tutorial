@@ -47,6 +47,10 @@
             <i class="ri-heart-fill"></i>
             Pinia Cart Tutorial
           </router-link>
+          <router-link to="/tutorials" class="flex items-center gap-2 text-gray-500 hover:text-gray-600 mb-3">
+            <i class="ri-heart-fill"></i>
+            Tutorials
+          </router-link>
         </div>
       </div>
       <div class="text-center text-gray-700 bg-red-100 p-2 rounded-md">

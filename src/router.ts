@@ -5,6 +5,7 @@ import Brands from "./components/Brands.vue";
 import Services from "./components/Services.vue";
 import Products from "./components/Products.vue";
 import Blog from "./components/Blog.vue";
+import Tutorials from "./components/Tutorials.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -15,6 +16,7 @@ const router = createRouter({
     { path: '/services', component: Services },
     { path: '/blog', component: Blog },
     { path: '/pinia-cart-tutorial', component: PiniaCartTutorial },
+    { path: '/tutorials', component: Tutorials }
   ]
 })
 export default router;
